@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/cardview_light_background"
+    android:clickable="true"
+    android:transitionName="card"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="6dp"
+    tools:showIn="@layout/activity_main">
+
+    <include
+        android:id="@+id/cardContent"
+        layout="@layout/card_content" />
+</android.support.v7.widget.CardView>
+
+    
